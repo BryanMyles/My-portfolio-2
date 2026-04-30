@@ -314,9 +314,9 @@ export default function App() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {[
                 { title: "E-Commerce Boutique", desc: "A full-featured online store with custom product pages and seamless checkout experience." },
-                { title: "Creative Agency Site", desc: "Dynamic portfolio website with custom animations and CMS-driven content." },
-                { title: "Restaurant Website", desc: "Elegant dining website with online reservations and menu management.", img: "/restaurant.png" },
-                { title: "SaaS Landing Page", desc: "Modern, conversion-focused landing page built with AI-assisted development." },
+                { title: "Blog Website", desc: "Dynamic and engaging blog platform with CMS-driven content and modern typography.", img: "/Blog website.jpg" },
+                { title: "Restaurant Website", desc: "Elegant dining website with online reservations, menu management, and fluid layout.", img: "/Food website.jpg" },
+                { title: "NGO Platform", desc: "Impactful non-profit website to drive donations and community engagement.", img: "/NGO website.jpg" },
               ].map((project, index) => (
                 <motion.div
                   key={project.title}
