@@ -313,7 +313,7 @@ export default function App() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {[
-                { title: "E-Commerce Boutique", desc: "A full-featured online store with custom product pages and seamless checkout experience." },
+                { title: "E-Commerce Boutique", desc: "A full-featured online store with custom product pages and seamless checkout experience.", img: "/E-COMMERCE WEBSITE.jpg" },
                 { title: "Blog Website", desc: "Dynamic and engaging blog platform with CMS-driven content and modern typography.", img: "/Blog website.jpg" },
                 { title: "Restaurant Website", desc: "Elegant dining website with online reservations, menu management, and fluid layout.", img: "/Food website.jpg" },
                 { title: "NGO Platform", desc: "Impactful non-profit website to drive donations and community engagement.", img: "/NGO website.jpg" },
