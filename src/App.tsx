@@ -166,6 +166,8 @@ export default function App() {
                 <img
                   src="/Bryan4wordpress.png"
                   alt="Bryan Myles"
+                  loading="eager"
+                  fetchPriority="high"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
@@ -330,7 +332,9 @@ export default function App() {
                     {project.img ? (
                       <img 
                         src={project.img} 
-                        alt={project.title} 
+                        alt={project.title}
+                        loading="lazy"
+                        decoding="async"
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                         onError={(e) => {
                           const target = e.target as HTMLImageElement;
